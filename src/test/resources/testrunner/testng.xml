@@ -4,11 +4,11 @@
 <suite name="GO Rest Test Suite" verbose="1" parallel="tests"
 	thread-count="3">
 
-	<listeners>
+	<!-- <listeners>
 		<listener class-name="com.qa.listeners.ExtentReportListener" />
 		<listener class-name="com.qa.listeners.AllureReportListener" />
 
-	</listeners>
+	</listeners> -->
 
 	<test name="Go Rest regression Test" parallel="classes"
 		thread-count="3">

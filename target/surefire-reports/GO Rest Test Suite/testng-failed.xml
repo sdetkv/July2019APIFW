@@ -5,9 +5,15 @@
     <classes>
       <class name="com.qa.gorest.tests.UpdateUserAPITest">
         <methods>
+          <include name="createUserAPIPUTTest_WithConstructor"/>
           <include name="createUserAPIPUTTest_WithSetter"/>
         </methods>
       </class> <!-- com.qa.gorest.tests.UpdateUserAPITest -->
+      <class name="com.qa.gorest.tests.DeleteUserAPITest">
+        <methods>
+          <include name="deleteUserTest"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.DeleteUserAPITest -->
     </classes>
   </test> <!-- Go Rest regression Test(failed) -->
 </suite> <!-- Failed suite [GO Rest Test Suite] -->
