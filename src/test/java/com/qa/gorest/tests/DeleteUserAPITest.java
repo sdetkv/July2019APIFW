@@ -14,7 +14,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.restassured.response.Response;
 
-@Listeners(AllureReportListener.class)
+//@Listeners(AllureReportListener.class)
 public class DeleteUserAPITest {
 	String baseURI = "https://gorest.co.in";
 	String basePath = "/public-api/users";

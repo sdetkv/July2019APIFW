@@ -18,7 +18,7 @@ import io.qameta.allure.SeverityLevel;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-@Listeners(AllureReportListener.class)
+//@Listeners(AllureReportListener.class)
 public class GetUserAPITest {
 	String baseURI = "https://gorest.co.in";
 	String basePath = "/public-api/users/";

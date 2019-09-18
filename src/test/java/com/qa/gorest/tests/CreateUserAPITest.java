@@ -18,7 +18,7 @@ import io.restassured.response.Response;
 
 @Epic("Epic - Create USER")
 @Feature("US-101: define the create user feature....")
-@Listeners(AllureReportListener.class)
+//@Listeners(AllureReportListener.class)
 public class CreateUserAPITest {
 
 	String baseURI = "https://gorest.co.in";

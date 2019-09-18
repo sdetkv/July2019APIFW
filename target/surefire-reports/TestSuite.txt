@@ -1,20 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 117.562 s <<< FAILURE! - in TestSuite
-createUserAPIPUTTest_WithConstructor(com.qa.gorest.tests.UpdateUserAPITest)  Time elapsed: 10.95 s  <<< FAILURE!
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 117.793 s <<< FAILURE! - in TestSuite
+createUserAPIPUTTest_WithConstructor(com.qa.gorest.tests.UpdateUserAPITest)  Time elapsed: 10.967 s  <<< FAILURE!
 io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithConstructor(UpdateUserAPITest.java:48)
 Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
 	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithConstructor(UpdateUserAPITest.java:48)
 
-deleteUserTest(com.qa.gorest.tests.DeleteUserAPITest)  Time elapsed: 4.249 s  <<< FAILURE!
-io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-	at com.qa.gorest.tests.DeleteUserAPITest.deleteUserTest(DeleteUserAPITest.java:52)
-Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
-	at com.qa.gorest.tests.DeleteUserAPITest.deleteUserTest(DeleteUserAPITest.java:52)
-
-createUserAPIPUTTest_WithSetter(com.qa.gorest.tests.UpdateUserAPITest)  Time elapsed: 9.24 s  <<< FAILURE!
+createUserAPIPUTTest_WithSetter(com.qa.gorest.tests.UpdateUserAPITest)  Time elapsed: 9.559 s  <<< FAILURE!
 io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:92)
 Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.

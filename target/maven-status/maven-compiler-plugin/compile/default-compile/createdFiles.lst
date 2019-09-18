@@ -1,5 +1,7 @@
 com/qa/client/RestClient.class
+com/qa/listeners/AllureReportListener.class
 com/qa/util/ExcelUtil.class
 com/qa/util/TestUtil.class
 com/qa/constants/Constants.class
+com/qa/listeners/ExtentReportListener.class
 com/qa/pojo/Users.class
